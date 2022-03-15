@@ -1,0 +1,14 @@
+{
+  "name": "curly-db",
+  "version": "1.0.0",
+  "description": "A simple in-memory JSON based database.",
+  "main": "index.js",
+  "author": "albyzyx, tharun0120",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
