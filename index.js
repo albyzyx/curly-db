@@ -17,7 +17,4 @@ function omitKeys(obj, keys) {
 store.toJSON = function () {
   return omitKeys(store, ["get", "set", "has"]);
 };
-store.set("a", "b");
-store.set("c", "b");
-store.save();
 module.exports = store;
